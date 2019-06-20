@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Durham House of Pets</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <style>
+        .black_overlay {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 120%;
+            background-color: black;
+            z-index: 1001;
+            -moz-opacity: 0.8;
+            opacity: .80;
+            filter: alpha(opacity=88);
+        }
+
+        .white_content {
+            display: none;
+            position: absolute;
+            top: 35%;
+            left: 25%;
+            width: 55%;
+            padding: 20px;
+            border: 10px solid orange;
+            background-color: white;
+            z-index: 1002;
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="agileits-banner">
+        <div class="banner-layouts">
+            <h2>Durham House of Pets</h2>
+        </div>
+        <!-- navigation -->
+        <div class="top-nav">
+            <div class="w">
+                <div class="logo">
+                    <h1>DHP</h1>
+                </div>
+                <ul class="nav navbar">
+                    <li><a href="index.html">About Us</a></li>
+                    <li><a href="employees.html">Our Team</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="policies.html">Policies</a></li>
+                    <li><a href="contact_us.html" class="active">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="w">
+            <h3 class="agileits-title">Contact Us</h3>
+            <div class="contact-agileinfo">
+                <div class="map">
+                    <img src="images/map.png" width="100%" alt="" />
+                    <!--<iframe src="http://www.google.cn/maps/embed?pb=!1m10!1m8!1m3!1d35744.14342519141!2d-3.2314774863581888!3d55.9492165472853!3m2!1i1024!2i768!4f13.1!5e0!3m2!1szh-CN!2scn!4v1560848487002!5m2!1szh-CN!2scn" width="1200" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+                </div>
+            </div>
+            <div class="contact-agileinfo">
+                <div class="address">
+                    <p>Corporate office:Durham House of Pets 83 Main Street, Durham, NH <br>
+                        <p><strong>Postal Address</strong>-03824</p>
+                        <p><strong>Phone</strong>-603-978-6921</p>
+                        <p><strong>Email</strong>-<a href="javascript:void(0)"
+                                onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">827593014@qq.com</a>
+                            Regional Offices: <br>
+                            1. 10Garrison Ave, Durham, NH 03824 <br>
+                            2. 100 Clubhouse St, Durham, NH 03824 </p>
+                        <p><strong>Postal Address</strong>-03824</p>
+                        <p><strong>Phone</strong>-603-978-6921</p>
+                        <p><strong>Email</strong>-<a href="javascript:void(0)"
+                                onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">827593014@qq.com</a>
+                        </p>
+                        <p></p>
+                        <a class="button" href="https://www.facebook.com/Annimalspetsupplies/"
+                            target="_blank">Facebook</a><a class="button" href="https://twitter.com/annimalspet"
+                            target="_blank">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="light" class="white_content">
+        <h1 style="line-height:2em;">Corporate Inquiry</h1>
+        <form action="#" method="post" class="message">
+            <input type="text" class="email" name="Email" placeholder="827593014@qq.com" required="">
+        </form>
+        <a class="button" href="javascript:void(0)"
+            onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Click
+            here to close this window</a>
+    </div>
+    <div id="fade" class="black_overlay"></div>
+    <div class="copy-right">
+        <p>Copyright © 2019.Company DHP All rights reserved</p>
+    </div>
+</body>
+
+</html>
